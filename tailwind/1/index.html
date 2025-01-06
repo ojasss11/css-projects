@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind-1</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <ul
+      class="flex py-8 bg-purple-400 cursor-pointer bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+    >
+      <li class="mx-4 text-xl text-white">Home</li>
+      <li class="mx-4 text-xl text-white">Projects</li>
+      <li class="mx-4 text-xl text-white">Contact</li>
+    </ul>
+
+    <section class="py-20 bg-gray-100">
+      <div class="container mx-auto text-center">
+        <h1 class="mb-4 text-4xl font-bold">Welcome to My Website</h1>
+        <p class="mb-8 text-lg">
+          This is a beautiful site built with Tailwind CSS.
+        </p>
+        <a
+          href="#projects"
+          class="px-6 py-3 text-white bg-purple-500 rounded-lg hover:bg-purple-600"
+          >View Projects</a
+        >
+      </div>
+    </section>
+
+    <section id="projects" class="py-20">
+      <div
+        class="container grid grid-cols-1 gap-8 mx-auto md:grid-cols-2 lg:grid-cols-3"
+      >
+        <div class="p-6 bg-white rounded-lg shadow-lg">
+          <h2 class="mb-2 text-xl font-semibold">Project 1</h2>
+          <p class="text-gray-700">Description of project 1.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-lg">
+          <h2 class="mb-2 text-xl font-semibold">Project 2</h2>
+          <p class="text-gray-700">Description of project 2.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-lg">
+          <h2 class="mb-2 text-xl font-semibold">Project 3</h2>
+          <p class="text-gray-700">Description of project 3.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-purple-50">
+      <div class="container mx-auto">
+        <h2 class="mb-8 text-3xl font-bold text-center text-gray-800">
+          About Me
+        </h2>
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 items-center">
+          <img
+            src="./src/photo-1667599397813-35121d7abb05.png"
+            alt="Placeholder"
+            class="rounded-lg shadow-lg"
+          />
+          <div>
+            <p class="text-lg text-gray-700">
+              Hi! I'm a passionate developer with a keen interest in building
+              modern and responsive websites using Tailwind CSS and other
+              cutting-edge technologies. I enjoy creating clean, efficient, and
+              user-friendly designs.
+            </p>
+            <a
+              href="#contact"
+              class="inline-block px-6 py-3 mt-4 text-white bg-purple-500 rounded-lg hover:bg-purple-600"
+              >Get in Touch</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-10 bg-gray-800">
+      <div class="container mx-auto text-center text-white">
+        <p class="mb-4">
+          &copy; 2025 JavaScript Intermediate Stuff by Ojas. Dive deeper into
+          coding!
+        </p>
+        <div class="flex justify-center space-x-6">
+          <a
+            href="https://github.com/ojasss11"
+            target="_blank"
+            class="text-purple-400 hover:underline"
+            >GitHub</a
+          >
+          <a
+            href="https://www.instagram.com/ojasss11/"
+            target="_blank"
+            class="text-purple-400 hover:underline"
+            >Instagram</a
+          >
+          <a
+            href="https://www.linkedin.com/in/ojas-bidkar-17ba8927b/"
+            target="_blank"
+            class="text-purple-400 hover:underline"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
